@@ -1,0 +1,48 @@
+<html>
+<head>
+  <title>First Interop</title>
+  <link rel="stylesheet" href="css.css" />
+</head>
+
+<body>
+  <main>
+    <div class="land">
+        <h1>Elm Land</h1>
+        <hr />
+        <div id="elm-container">To do: Embed Elm Here</div>
+    </div>
+
+    <div class="land" id="jsland">
+        <h1>js Land</h1>
+        <hr />
+        <h2>Look at what Elm sent!</h1>
+        <p id="from-elm">I've not yet received anything from Elm.</p>
+        <hr />
+        <h2>Send a valentine</h1>
+        <button id="send-button">send</send>
+    </div>
+  </main>
+
+  <script src="first-interop.js"></script>
+
+  <script>
+        //There are 2 simple steps for all Elm interop:
+        //Step 1: Embed Elm in webpage.
+        //Step 2: Hook up ports.
+
+        //var elmApp = Elm.FirstInterop.embed(document.getElementById("elm-container"));
+
+        //to do: subscribe to displayGreeting
+
+        document.getElementById("send-button").onclick = function() {
+            var
+                valentine = {
+                    from: "vanillajs",
+                    content: "Dear Elm, you are my best friend!"
+                };
+
+            //to do: send valentines to Elm
+        };
+  </script>
+</body>
+</html>

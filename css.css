@@ -1,0 +1,22 @@
+body {
+    font-size: 20px;
+}
+
+input {
+    font-size: 20px;
+    width: 100%;
+}
+
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.land {
+    border: 2px solid blue;
+    border-radius: 10%;
+    flex: 1;
+    margin: 5%;
+    padding: 5%;
+}
