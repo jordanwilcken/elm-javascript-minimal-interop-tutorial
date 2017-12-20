@@ -1,10 +1,8 @@
-# Vanillajs plus Elm: a simple tutorial#
-
 ## Introduction
 
 In this tutorial we're going to make a trivial web application. There will not be a back end. The application will consist entirely of one simple webpage that will look like this when we're finished:
 
-![end result](file:///C:/projects/jordanwilcken.github.io/tutorial-images/initial-page.jpg)
+![end result](readme-content/initial-page.jpg)
 
 Our web page will not do much. It will send a greeting to the div on the right using input from the div on the left. It will display a stock valentine at the bottom of the div on the left whenever the "send" button is clicked in the div on the right. That's it.
 
@@ -14,7 +12,7 @@ A portion of the app is written in Elm, and I've included the Elm code in this r
 
 As I said in the introduction, there is no back-end to this application, so you can run whatever webserver you want. You could even drag index.html into your favorite browser if you like, and work this tutorial entirely through the file protocol.  At this point, our webpage should look like this:
 
-![initial webpage](file:///C:/projects/jordanwilcken.github.io/tutorial-images/end-result.jpg)
+![initial webpage](readme-content/end-result.jpg)
 
 
 
