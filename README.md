@@ -40,8 +40,8 @@ The greeting input in our webpage does not work yet.  Neither does the "send" bu
 There should be two "to do" comments in the script tag just below our call to embed. Right below the first to do, we're going to add some code to hook up the displayGreeting port:
 
 ```javascript
-elmApp.ports.displayGreeting.subscribe(function(greeting)) {
-  document.getElementByID("from-elm").innerHTML = greeting;
+elmApp.ports.displayGreeting.subscribe(function(greeting) {
+  document.getElementById("from-elm").innerHTML = greeting;
 });
 ```
 
